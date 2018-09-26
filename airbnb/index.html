@@ -1,1 +1,60 @@
-<!-- Add your HTML here -->
+<!DOCTYPE html>
+
+<html>
+
+  <head>
+    <meta charset="utf-8">
+    <link href="styles.css" rel="stylesheet" type="text/css">
+    <title>Airbnb</title>
+  </head>
+
+  <body>
+
+    <h1>Book unique homes and experiences</h1>
+
+    <form>
+      <div class="long-text">
+        <label for="where">Where</label>
+        <input type="text" placeholder="Anywhere" id="location-text" class="input-box">
+      </div>
+      <div class="short-text">
+        <label for="check">Check-In</label>
+        <input type="text" placeholder="mm/dd/yyyy" id="check-in-time" class="input-box">
+      </div>
+      <div class="short-text">
+        <label for="check-out">Check-Out</label>
+        <input type="text" placeholder="mm/dd/yyyy" id="check-out-time" class="input-box">
+      </div>
+      <div class="long-text" id="guests">
+        <label for="guests">Guests</label>
+        <select id="guest-number" class="input-box">
+          <option value="1">1 guest</option>
+          <option value="2">2 guests</option>
+          <option value="3">3 guests</option>
+          <option value="4">4 guests</option>
+          <option value="5">5 guests</option>
+        </select>
+      </div>
+        <input type="submit" value="Search" id="search">
+    </form>
+
+    <h2>Explore Airbnb</h2>
+
+    <div id="explore-container">
+      <div class="explore">
+        <a href="https://placeholder.com"><img src="https://via.placeholder.com/125x100"></a>
+        <strong>Homes</strong>
+      </div>
+      <div class="explore">
+        <a href="https://placeholder.com"><img src="https://via.placeholder.com/125x100"></a>
+        <strong>Experiences</strong>
+      </div>
+      <div class="explore">
+        <a href="https://placeholder.com"><img src="https://via.placeholder.com/125x100"></a>
+        <strong>Restaraunts</strong>
+      </div>
+    </div>
+
+  </body>
+
+</html>

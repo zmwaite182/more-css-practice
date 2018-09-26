@@ -1,1 +1,58 @@
-/* Add your CSS here */
+h1 {
+  padding: 2em 0em;
+  color: white;
+  margin-top: 0;
+  width: 100%;
+  background-image: url(https://via.placeholder.com/750x150)
+}
+
+.input-box {
+  display: block;
+  width: 100%;
+  margin-bottom: 2em;
+  padding: 1em;
+}
+
+.long-text {
+  box-sizing: border-box;
+  width: 100%;
+}
+
+.short-text {
+  float: left;
+  width: 50%;
+}
+
+select {
+  padding-left: 0.7em;
+  height: 4em;
+}
+
+#search {
+  display: block;
+  width: 100%;
+  background-color: indianred;
+  color: white;
+  padding: 1.2em;
+  font-size: 1.2em;
+}
+
+.explore {
+  border: 1px lightgrey solid;
+  display: inline-block;
+  box-sizing: border-box;
+  width: 33%;
+  text-align: left;
+}
+
+#explore-container {
+  text-align: center;
+}
+
+.explore img {
+  vertical-align: middle;
+}
+
+strong {
+  padding-left: 2em;
+}
