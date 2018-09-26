@@ -1,1 +1,25 @@
-/* Add your CSS here */
+html {
+  font-family: sans-serif;
+}
+
+h1 {
+  color: orange;
+}
+
+p {
+  color: gray;
+}
+
+.gallery-items {
+  display: inline-block;
+  box-sizing: border-box;
+  width: 20%;
+  height: 100%;
+  min-height: 14em;
+  border: 1px black solid;
+}
+
+span {
+  display: block;
+  color: skyblue;
+}
