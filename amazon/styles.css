@@ -14,12 +14,17 @@ p {
   display: inline-block;
   box-sizing: border-box;
   width: 20%;
-  height: 100%;
-  min-height: 14em;
-  border: 1px black solid;
+  margin: 2em 0;
+  min-width: 100px;
 }
 
 span {
   display: block;
   color: skyblue;
+  position: absolute;
+  width: 20%;
+  min-width: 100px;
+}
+.gallery-items img {
+  min-width: 100px;
 }
